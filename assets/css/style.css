@@ -1,0 +1,66 @@
+
+
+#video-container {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* #navbar-content {
+    margin-top: 15px;
+    margin-right: 15px;
+} */
+
+.item {
+    margin: 15px;
+    color: white;
+}
+
+a {
+    color: silver;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+    color: silver;
+}
+
+p {
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+    color: silver;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+#about-me {
+    margin-top: 200px;
+}
+
+#contact {
+    margin-left: 450px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: silver;
+}
+
+
+
+
