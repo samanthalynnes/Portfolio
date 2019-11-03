@@ -26,18 +26,26 @@ a {
     line-height: 30px;
     font-weight: bold;
     font-size: 20px;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Walter Turncoat', cursive;
 }
 
 h1 {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Walter Turncoat', cursive;
     color: silver;
 }
 
 p {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Walter Turncoat', cursive;
     font-size: 20px;
     color: silver;
+}
+ 
+h1 {
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: 30px;
 }
 
 img {
@@ -53,12 +61,48 @@ img {
     margin-left: 450px;
 }
 
+.card {
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title {
+    font-family: 'Walter Turncoat', cursive;
+    color: silver;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
 footer {
     position: fixed;
     bottom: 0;
     text-align: center;
     width: 100%;
     color: silver;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 100px;
+        height: 200px;
+    }
+
+    #contact {
+        float: bottom;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        max-width: 300px;
+    }
+
 }
 
 
