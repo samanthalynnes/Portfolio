@@ -27,65 +27,52 @@
             <source src="./assets/images/triangles.mp4" type="video/mp4">
         </video>
     </div>
-    <div class="body-wrap fullwidth-container">
-        <nav class="navbar fixed-top navbar-expand-lg
-        fullwidth-container navbar-dark bg-transparent">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
-                aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon">
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-content">
-                <ul class="navbar-nav ml-auto">
-                    <li class="item">
-                        <a href="./about.html">About</a>
-                    </li>
-                    <li class="item">
-                        <a href="./works.html">Works</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
 
-    <!-- <div id="wrapper">
-
-    </div> -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./works.html">Works</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <section id="about-me">
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <img src="assets/images/pic.JPG">
-                </div>
-                <div class="col-8 text-center">
-                    <h1>ABOUT ME</h1>
-                    <br>
-                    <p>
-                        Hi there! My name is Samantha and I am a current full-stack
-                        coding bootcamp student at the University of Kansas. Please take a minute to
-                        check out my work and see what I've learned so far, or connect with me below.
-                        Thanks for stopping by ✌️.
-                    </p>
-                </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="assets/images/pic.JPG" id="me">
+            </div>
+            <div class="col-sm-7 text-center">
+                <h1 class="about-header">ABOUT ME</h1>
+                <br>
+                <p class="about-text">
+                    Hi there! My name is Samantha and I am a junior web developer. I've recently completed a full-stack
+                    coding bootcamp certificate from the University of Kansas. Please take a minute to
+                    check out my work and see what I've learned so far, or connect with me below.
+                    Thanks for stopping by ✌️.
+                </p>
             </div>
         </div>
     </section>
 
     <section id="contact">
         <div class="container mt-5">
-            <div class="row justify-content-between">
-                <div class="col">
-                    <a href="https://github.com/samanthalynnes" target="_blank">
+            <div class="row">
+                <div id="contact-buttons">
+                    <a href="https://github.com/samanthalynnes" target="_blank" class="btn">
                         <img src="assets/images/github.png" style="width:70px;height:70px;opacity:0.4">
                     </a>
-                </div>
-                <div class="col">
                     <a href="https://www.linkedin.com/in/samantha-lynnes-97b34b56/" target="_blank" class="btn">
                         <img src="assets/images/linkedin.png" style="width:70px;height:70px;opacity:0.4">
                     </a>
-                </div>
-                <div class="col">
                     <a href="mailto:samanthalynnes522@gmail.com" target="_blank" class="btn">
                         <img src="assets/images/email.png" style="width:70px;height:70px;opacity:0.4">
                     </a>
@@ -97,6 +84,16 @@
     <footer>
         &copy; 2019 Samantha Lynnes
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
 

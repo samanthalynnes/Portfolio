@@ -11,17 +11,14 @@
     right: 0;
 }
 
-/* #navbar-content {
-    margin-top: 15px;
-    margin-right: 15px;
-}  */
-
-.item {
-    margin: 15px;
+.nav-item {
+    float: right;
+    display: inline-block;
+    margin-right: 20px;
     color: white;
 }
 
-a {
+.nav-link {
     color: silver;
     line-height: 30px;
     font-weight: bold;
@@ -39,26 +36,20 @@ p {
     font-size: 20px;
     color: silver;
 }
- 
-h1 {
-    min-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 90px;
-    margin-bottom: 30px;
-}
 
-img {
+#me {
     width: 200px;
     height: 300px;
 }
 
 #about-me {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
-#contact {
-    margin-left: 450px;
+#contact-buttons {
+    text-align: center;
+     width: 100%;
+     margin-bottom: 20px;
 }
 
 .card {
@@ -74,11 +65,22 @@ img {
 }
 
 .card-text {
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.github {
+    margin-bottom: 30px;
+    background-color:#252b31;
+    color: silver;
+    font-weight: bold;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     text-align: center;
     width: 100%;
@@ -90,19 +92,20 @@ footer {
         width: 100px;
         height: 200px;
     }
-
-    #contact {
-        float: bottom;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
+    #me {
+        
+        text-align: center;
     }
-
+    #about-me {
+        column-width: 100%;
+    }
     .card {
         max-width: 300px;
     }
-
+    .github {
+        font-size: 15px;
+        width: 250px;
+    }
 }
 
  
